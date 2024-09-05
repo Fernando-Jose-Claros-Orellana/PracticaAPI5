@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\FJCO20240905.API.props" />
+</Project>

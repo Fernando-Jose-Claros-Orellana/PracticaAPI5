@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FJCO20240905.DTOs/1.0.0": {
+        "runtime": {
+          "FJCO20240905.DTOs.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FJCO20240905.DTOs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

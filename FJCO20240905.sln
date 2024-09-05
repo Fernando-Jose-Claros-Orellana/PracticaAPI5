@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FJCO20240905.API", "FJCO20240905.API\FJCO20240905.API.csproj", "{F8D2C063-5C96-4ADF-B745-4AC1F74ABB5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FJCO20240905.DTOs", "FJCO20240905.DTOs\FJCO20240905.DTOs.csproj", "{EDC75A34-21AD-400A-B14A-8FD36A28CC5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8D2C063-5C96-4ADF-B745-4AC1F74ABB5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8D2C063-5C96-4ADF-B745-4AC1F74ABB5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8D2C063-5C96-4ADF-B745-4AC1F74ABB5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8D2C063-5C96-4ADF-B745-4AC1F74ABB5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDC75A34-21AD-400A-B14A-8FD36A28CC5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDC75A34-21AD-400A-B14A-8FD36A28CC5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDC75A34-21AD-400A-B14A-8FD36A28CC5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDC75A34-21AD-400A-B14A-8FD36A28CC5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F937B21-E8B7-4BFE-937D-DCACBE952346}
+	EndGlobalSection
+EndGlobal
