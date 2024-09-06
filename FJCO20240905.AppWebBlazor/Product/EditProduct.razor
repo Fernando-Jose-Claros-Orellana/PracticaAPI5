@@ -1,0 +1,103 @@
+﻿@page "/edit-product/{Id:int}"
+@using FJCO20240905.DTOs.ProductFJCO_DTOs;
+@using Microsoft.AspNetCore.Components.Forms;
+@using System.ComponentModel.DataAnnotations;
+@using FJCO20240905.AppWebBlazor.Data;
+
+@if (isSuccess == false && isError == false)
+{
+    <h3>Modificar Cliente</h3>
+
+    <EditForm Model="product" OnValidSubmit="Edit">
+        <DataAnnotationsValidator />
+        <div class="row">
+            <div class="col-4">
+                <div class="form-group">
+                    <label for="Nombre">Nombre:</label>
+                    <InputText class="form-control" @bind-Value="product.Nombre" />
+                    <ValidationMessage For="() => product.Nombre" />
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="form-group">
+                    <label for="Descripcion">Descripcion:</label>
+                    <InputText class="form-control" @bind-Value="product.Descripcion" />
+                    <ValidationMessage For="() => product.Descripcion" />
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="form-group">
+                    <label for="Precio">Precio:</label>
+                    <InputNumber class="form-control" @bind-Value="product.Precio" />
+                    <ValidationMessage For="() => product.Precio" />
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Modificar</button>
+                <NavLink href="/product-list" class="btn btn-secondary">Cancelar</NavLink>
+            </div>
+        </div>
+    </EditForm>
+}
+else if (isSuccess)
+{
+    product = new EditProductDTO();
+    isError = false;
+    <p class="alert alert-success">Producto se modifico con éxito.</p>
+    <NavLink href="/product-list" class="btn btn-primary">Aceptar</NavLink>
+}
+else if (isError)
+{
+    <p class="alert alert-error">Sucedio un error al intentar modificar. o no ha realizado ninguna modificacion al registro actual</p>
+    <NavLink href="/product-list" class="btn btn-primary">Aceptar</NavLink>
+}
+
+@code {
+    // Declaración de un parámetro llamado "Id" que puede ser pasado al componente
+    [Parameter]
+    public int Id { get; set; }
+
+    // Inyección de dependencia de CustomerService para
+    // acceder a los servicios relacionados con los clientes
+    [Inject]
+    ProductService productService { get; set; }
+
+    // Declaración e inicialización de un objeto "customer"
+    //  para almacenar los detalles del cliente
+    EditProductDTO product = new EditProductDTO();
+
+    // Declaración de variables booleanas para manejar el estado de éxito y error
+    bool isSuccess = false;
+    bool isError = false;
+
+    // Método que se llama cuando se inicializa el componente
+    protected override async Task OnInitializedAsync()
+    {
+        // Realiza una llamada asincrónica para obtener los
+        // detalles del cliente por su Id
+        var productDetail = await productService.GetProductById(Id);
+
+        // Inicializa el objeto "customer" con los detalles del cliente obtenidos
+        product = new EditProductDTO(productDetail);
+    }
+
+    // Método para editar el cliente
+    private async Task Edit()
+    {
+        // Realiza una llamada asincrónica para editar la información del cliente
+        int result = await productService.Edit(product);
+
+        // Verifica si el resultado de la edición es diferente
+        // de cero (éxito) o igual a cero (error)
+        if (result != 0)
+            isSuccess = true;
+        else
+            isError = true;
+    }
+
+}

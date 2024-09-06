@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\FJCO20240905.AppWebBlazor.props" />
+</Project>
