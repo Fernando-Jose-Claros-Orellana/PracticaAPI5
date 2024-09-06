@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FJCO20240905.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d198118283fd6e9f3fbd2382f942269d6a435e7")]
 [assembly: System.Reflection.AssemblyProductAttribute("FJCO20240905.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FJCO20240905.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

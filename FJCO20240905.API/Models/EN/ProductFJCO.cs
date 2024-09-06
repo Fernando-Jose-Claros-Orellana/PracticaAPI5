@@ -3,8 +3,8 @@
     public class ProductFJCO
     {
         public int Id { get; set; } 
-        public string Nombre { get; set; } 
-        public string Descripcion { get; set; } 
+        public string NombreFJCO { get; set; } 
+        public string DescripcionFJCO { get; set; } 
         public decimal Precio { get; set; } 
     }
 }

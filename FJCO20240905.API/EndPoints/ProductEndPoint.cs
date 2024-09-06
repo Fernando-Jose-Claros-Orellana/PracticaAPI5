@@ -14,8 +14,8 @@ namespace FJCO20240905.API.EndPoints
                
                 var product = new ProductFJCO
                 {
-                   Nombre = productDTO.Nombre != null ? productDTO.Nombre : string.Empty,
-                    Descripcion = productDTO.Descripcion != null ? productDTO.Descripcion : string.Empty,
+                   NombreFJCO = productDTO.Nombre != null ? productDTO.Nombre : string.Empty,
+                    DescripcionFJCO = productDTO.Descripcion != null ? productDTO.Descripcion : string.Empty,
                 };
 
                var products = new List<ProductFJCO>();
@@ -42,8 +42,8 @@ namespace FJCO20240905.API.EndPoints
                     productResult.Data.Add(new SearchResultProductDTO.ProductDTO
                     {
                         Id = s.Id,
-                        Nombre = s.Nombre,
-                        Descripcion = s.Descripcion,
+                        Nombre = s.NombreFJCO,
+                        Descripcion = s.DescripcionFJCO,
                         Precio = s.Precio
                     });
                 });
@@ -59,8 +59,8 @@ namespace FJCO20240905.API.EndPoints
                 var productResult = new GetIdResultProductDTO
                 {
                     Id = product.Id,
-                    Nombre = product.Nombre,
-                    Descripcion = product.Descripcion,
+                    Nombre = product.NombreFJCO,
+                    Descripcion = product.DescripcionFJCO,
                     Precio = product.Precio
                 };
 
@@ -74,8 +74,8 @@ namespace FJCO20240905.API.EndPoints
             {
                 var product = new ProductFJCO
                 {
-                    Nombre = productDTO.Nombre,
-                    Descripcion = productDTO.Decripcion,
+                    NombreFJCO = productDTO.Nombre,
+                    DescripcionFJCO = productDTO.Decripcion,
                     Precio = productDTO.Precio
                 };
 
@@ -92,8 +92,8 @@ namespace FJCO20240905.API.EndPoints
                 var product = new ProductFJCO
                 {
                     Id = productDTO.Id,
-                    Nombre = productDTO.Nombre,
-                    Descripcion = productDTO.Descripcion,
+                    NombreFJCO = productDTO.Nombre,
+                    DescripcionFJCO = productDTO.Descripcion,
                     Precio = productDTO.Precio
                 };
 

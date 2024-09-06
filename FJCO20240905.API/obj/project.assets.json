@@ -2358,11 +2358,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Api\\C#\\Guia5\\FJCO20240905\\FJCO20240905.API\\FJCO20240905.API.csproj",
+      "projectUniqueName": "C:\\Users\\FJ\\Downloads\\Guia5\\FJCO20240905\\FJCO20240905.API\\FJCO20240905.API.csproj",
       "projectName": "FJCO20240905.API",
-      "projectPath": "D:\\Api\\C#\\Guia5\\FJCO20240905\\FJCO20240905.API\\FJCO20240905.API.csproj",
+      "projectPath": "C:\\Users\\FJ\\Downloads\\Guia5\\FJCO20240905\\FJCO20240905.API\\FJCO20240905.API.csproj",
       "packagesPath": "C:\\Users\\FJ\\.nuget\\packages\\",
-      "outputPath": "D:\\Api\\C#\\Guia5\\FJCO20240905\\FJCO20240905.API\\obj\\",
+      "outputPath": "C:\\Users\\FJ\\Downloads\\Guia5\\FJCO20240905\\FJCO20240905.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2384,8 +2384,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Api\\C#\\Guia5\\FJCO20240905\\FJCO20240905.DTOs\\FJCO20240905.DTOs.csproj": {
-              "projectPath": "D:\\Api\\C#\\Guia5\\FJCO20240905\\FJCO20240905.DTOs\\FJCO20240905.DTOs.csproj"
+            "C:\\Users\\FJ\\Downloads\\Guia5\\FJCO20240905\\FJCO20240905.DTOs\\FJCO20240905.DTOs.csproj": {
+              "projectPath": "C:\\Users\\FJ\\Downloads\\Guia5\\FJCO20240905\\FJCO20240905.DTOs\\FJCO20240905.DTOs.csproj"
             }
           }
         }

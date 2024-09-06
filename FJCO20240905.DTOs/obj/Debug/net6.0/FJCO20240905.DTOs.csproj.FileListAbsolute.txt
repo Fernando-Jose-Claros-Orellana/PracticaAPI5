@@ -10,3 +10,15 @@ D:\Api\C#\Guia5\FJCO20240905\FJCO20240905.DTOs\obj\Debug\net6.0\refint\FJCO20240
 D:\Api\C#\Guia5\FJCO20240905\FJCO20240905.DTOs\obj\Debug\net6.0\FJCO20240905.DTOs.pdb
 D:\Api\C#\Guia5\FJCO20240905\FJCO20240905.DTOs\obj\Debug\net6.0\ref\FJCO20240905.DTOs.dll
 D:\Api\C#\Guia5\FJCO20240905\FJCO20240905.DTOs\obj\Debug\net6.0\FJCO20240905.DTOs.sourcelink.json
+C:\Users\FJ\Downloads\Guia5\FJCO20240905\FJCO20240905.DTOs\bin\Debug\net6.0\FJCO20240905.DTOs.deps.json
+C:\Users\FJ\Downloads\Guia5\FJCO20240905\FJCO20240905.DTOs\bin\Debug\net6.0\FJCO20240905.DTOs.dll
+C:\Users\FJ\Downloads\Guia5\FJCO20240905\FJCO20240905.DTOs\bin\Debug\net6.0\FJCO20240905.DTOs.pdb
+C:\Users\FJ\Downloads\Guia5\FJCO20240905\FJCO20240905.DTOs\obj\Debug\net6.0\FJCO20240905.DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FJ\Downloads\Guia5\FJCO20240905\FJCO20240905.DTOs\obj\Debug\net6.0\FJCO20240905.DTOs.AssemblyInfoInputs.cache
+C:\Users\FJ\Downloads\Guia5\FJCO20240905\FJCO20240905.DTOs\obj\Debug\net6.0\FJCO20240905.DTOs.AssemblyInfo.cs
+C:\Users\FJ\Downloads\Guia5\FJCO20240905\FJCO20240905.DTOs\obj\Debug\net6.0\FJCO20240905.DTOs.csproj.CoreCompileInputs.cache
+C:\Users\FJ\Downloads\Guia5\FJCO20240905\FJCO20240905.DTOs\obj\Debug\net6.0\FJCO20240905.DTOs.sourcelink.json
+C:\Users\FJ\Downloads\Guia5\FJCO20240905\FJCO20240905.DTOs\obj\Debug\net6.0\FJCO20240905.DTOs.dll
+C:\Users\FJ\Downloads\Guia5\FJCO20240905\FJCO20240905.DTOs\obj\Debug\net6.0\refint\FJCO20240905.DTOs.dll
+C:\Users\FJ\Downloads\Guia5\FJCO20240905\FJCO20240905.DTOs\obj\Debug\net6.0\FJCO20240905.DTOs.pdb
+C:\Users\FJ\Downloads\Guia5\FJCO20240905\FJCO20240905.DTOs\obj\Debug\net6.0\ref\FJCO20240905.DTOs.dll

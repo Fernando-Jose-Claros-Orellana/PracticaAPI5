@@ -31,8 +31,8 @@ namespace FJCO20240905.API.Models.DAL
             var productUpdate = await GetById(product.Id);
             if (productUpdate.Id != 0)
             {
-                productUpdate.Nombre = product.Nombre;
-                productUpdate.Descripcion = product.Descripcion;
+                productUpdate.NombreFJCO = product.NombreFJCO;
+                productUpdate.DescripcionFJCO = product.DescripcionFJCO;
                 productUpdate.Precio = product.Precio;
 
                 result = await _context.SaveChangesAsync();
@@ -55,13 +55,13 @@ namespace FJCO20240905.API.Models.DAL
         private IQueryable<ProductFJCO> Query(ProductFJCO product)
         {
             var query = _context.ProductsFJCO.AsQueryable();
-            if (!string.IsNullOrEmpty(product.Nombre))
+            if (!string.IsNullOrEmpty(product.NombreFJCO))
             {
-                query = query.Where(s => s.Nombre.Contains(product.Nombre));
+                query = query.Where(s => s.NombreFJCO.Contains(product.NombreFJCO));
             }
-            if (!string.IsNullOrEmpty(product.Descripcion))
+            if (!string.IsNullOrEmpty(product.DescripcionFJCO))
             {
-                query = query.Where(s => s.Descripcion.Contains(product.Descripcion));
+                query = query.Where(s => s.DescripcionFJCO.Contains(product.DescripcionFJCO));
             }
             if (product.Precio != 0)
             {
